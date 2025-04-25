@@ -137,12 +137,6 @@ function my_theme_register_required_plugins()
             'force_activation' => true,
         ),
         array(
-            'name'     => 'UpdraftPlus: WordPress Backup & Migration Plugin',
-            'slug'     => 'updraftplus',
-            'required' => true,
-            'force_activation' => true,
-        ),
-        array(
             'name'     => 'The Events Calendar',
             'slug'     => 'the-events-calendar',
             'required' => true,
@@ -175,6 +169,13 @@ function my_theme_register_required_plugins()
             'name'               => 'Advanced Custom Fields Pro (ACF)', // The plugin name.
             'slug'               => 'advanced-custom-fields-pro', // The plugin slug (typically the folder name).
             'source'             => get_template_directory() . '/includes/lib/plugins/advanced-custom-fields-pro.zip', // The plugin source.
+            'required' => true,
+            'force_activation' => true,
+        ),
+        array(
+            'name'               => 'UpdraftPlus Pro: WordPress Backup & Migration Plugin', // The plugin name.
+            'slug'               => 'updraftplus', // The plugin slug (typically the folder name).
+            'source'             => get_template_directory() . '/includes/lib/plugins/updraftplus.2.25.5.zip', // The plugin source.
             'required' => true,
             'force_activation' => true,
         ),
